@@ -7,6 +7,7 @@ const convertBtn = document.getElementById("convert-btn")
 const inputEl = document.getElementById("input-el")
 const ulEl = document.getElementById("result")
 convertBtn.addEventListener("click",function(){
+    ulEl.textContent = ""
     length(inputEl.value)
     volume(inputEl.value)
     mass(inputEl.value)
