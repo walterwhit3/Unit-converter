@@ -69,6 +69,12 @@ p {
     line-height: 20px;
 }
 
+#desc {
+    color:white;
+    font-weight: lighter;
+}
+
+
 #result {
     width:50%;
     margin:auto;
